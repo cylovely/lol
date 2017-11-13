@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="container">
+        <!--ulift优生活-->
+        <div class="row data-header">
+            <div class="col-md-12">
+                <div class="row text-center">
+                    <div class="col-md-5">
+                        <span>ULiFT优生活</span>
+                    </div>
+                    <div class="col-md-7 text-center">
+                        <ul class="list-inline">
+                            <li><a>首页</a></li>
+                            <li><a href="#" target="_self">新房</a></li>
+                            <li><a href="#" target="_self">二手房</a></li>
+                            <li><a href="#" target="_self">租房</a></li>
+                            <li><a href="#" target="_self">楼讯</a></li>
+                            <li><a href="#" target="_self">经纪人</a></li>
+                            <li>
+                                <a href="#">登录</a>
+                                <b>|</b>
+                                <a href="#">注册</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <h1>打造你的优质生活</h1>
+
+                <div class="row">
+                    <div class="col-md-7 col-md-offset-2">
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-md-2" style="padding-left:0;">
+                        <a href="#" class="btn btn-success btn-lg">开始找房</a>
+                    </div>
+                </div>
+                <p class="text-center">今日新增出租信息234条 二手房真实房源889套 在售新楼盘112个</p>
+            </div>
+        </div>
+        <!--找出租，地图找房，地铁找房-->
+        <div class="row data-find">
+            <!--找出租-->
+            <div class="col-md-4 text-center">
+                <img src="img/1.jpg" class="img-responsive">
+                <h2>找出租</h2>
+                <p>真实出租房源，优生活承诺真</p>
+                <p>实房源所见即真</p>
+            </div>
+            <!--地图找房-->
+            <div class="col-md-4 text-center">
+                <img src="img/2.jpg" class="img-responsive">
+                <h2>地图找房</h2>
+                <p>真实出租房源，优生活承诺真</p>
+                <p>设施一览无余</p>
+            </div>
+
+            <!--地铁找房-->
+            <div class="col-md-4 text-center">
+                <img src="img/3.jpg" class="img-responsive">
+                <h2>地铁找房</h2>
+                <p>房源紧邻地铁站，交通出行更</p>
+                <p>方便说走就走</p>
+            </div>
+        </div>
+        <!--优生活在线-->
+        <div class="row data-download">
+            <div class="col-md-5 col-md-offset-2 text-left">
+                <h1><b>优生活在线</b></h1>
+                <h4><b>集二手、新房、租房功能于一体，每天发布海量新房源，让您随时随地任性找房！
+                在线咨询让您放心，消息动态推送让您省心，服务承诺让您安心，数据百科锦囊让
+                您感受贴心慢慢找房路，我们努力为您想更多！</b>
+                </h4>
+                <div class="row">
+                    <div class="col-md-4"> <img src="img/QR-code.jpg" class="img-responsive"></div>
+                    <div class="col-md-2">
+                        <div class="row">
+                            <div class="col-md-12 ">
+                                <a href="#" class="btn btn-success btn-lg" target="_blank">iPhone&nbsp;&nbsp; </a>
+                            </div>
+                            <div class="col-md-12">
+                                <a href="#" class="btn btn-success btn-lg" target="_blank">Android</a>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </div>
+        <!--客服热线-->
+        <div class="row data-footer">
+        </div>
+
+    </div>
+    <script src="js/myQuery.js"></script>
+    <script src="js/ajax.js"></script>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+        (()=>{
+            ajax("get","footer.html").then(html=>{
+                $(".data-footer")[0].innerHTML=html;
+                document.head.innerHTML=document.head.innerHTML+
+                    ` <link href="css/bootstrap.css" rel="stylesheet">`;
+            })
+        })();
+    </script>
+</body>
+</html>
