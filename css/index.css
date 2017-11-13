@@ -1,0 +1,116 @@
+a:hover{
+    text-decoration: none;
+}
+/*整个头部*/
+.data-header{
+    background-image:url('../img/top.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+    height:600px;
+}
+/*ulift优生活整行背景，字体*/
+.data-header>.col-md-12{
+    width:100%;
+    height:50px;
+    margin-top:50px;
+    background-color:#ADADAD;
+    font-size:1.6em;
+    line-height:50px;
+}
+/*首页，新房，二手房等的悬停效果*/
+.data-header>.col-md-12>div.row>.col-md-7>ul>li:not(:last-child):hover{
+    background:#6C6C74;
+    color:#337AB4;
+}
+/*登录注册的悬停时字体颜色*/
+.data-header>.col-md-12>div.row>.col-md-7>ul>li:last-child>a:hover{
+    color: yellow;
+}
+/*ulift优生活 的字体大小及颜色*/
+.data-header>.col-md-12>div.row>.col-md-5>span{
+    font-size:3em;
+    font-family:"华文琥珀";
+    color:#1ABB9C;
+}
+/*打造你的优质生活字体大小颜色及位置*/
+.data-header>.col-md-12>h1{
+    font-size:2em;
+    color: #42b187;
+    font-weight:bold;
+    width:100%;
+    padding-left:20%;
+    margin-top:8%;
+}
+/*找出租，找二手房，找新房的字体颜色和粗细*/
+.data-header>.col-md-12>ul.list-inline>li>a{
+    color: #1ABB9C;
+    font-weight:bold;
+}
+/*找出租，找二手房，找新房的悬停效果*/
+.data-header>.col-md-12>ul.list-inline>li>a:hover{
+    color:#1ABB9C;
+}
+/*找出租，找二手房，找新房的位置*/
+.data-header>.col-md-12>ul.list-inline{
+    margin-left:20%;
+}
+/*input框的宽高和位置*/
+.data-header>.col-md-12>.row>.col-md-7>input{
+    width:100%;
+    height:52px;
+    border-radius:5px 0 0 5px;
+}
+.data-header>.col-md-12>.row>.col-md-7{
+    padding-right:0;
+}
+.data-header>.col-md-12>.row>.col-md-7{
+    padding-left:0;
+}
+.data-header>.col-md-12>.row>.col-md-2>a{
+    height:51px;
+    border-radius:0;
+}
+.data-header>.col-md-12>p{
+    margin-top:15%;
+    color: #151db1;
+}
+
+
+
+/**/
+.data-find{
+    width:100%;
+    height:300px;
+}
+.data-find>.text-center img{
+    margin:auto 40%;
+    margin-top:50px;
+}
+
+
+
+
+.data-download{
+    background-image:url('../img/bg-download.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+    height:500px;
+    font-family:"微软雅黑",Arial;
+}
+.data-download>.text-left h1{
+    margin-top:50px;
+    margin-bottom:20px;
+}
+.data-download>.text-left h4{
+    margin-bottom:30px;
+    line-height:30px;
+}
+.data-download>.text-left>.row>.col-md-2>.row>.col-md-12:first-child{
+    margin-bottom:10px;
+}
+
+
+
+

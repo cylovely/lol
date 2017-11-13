@@ -1,0 +1,77 @@
+a:hover{
+    text-decoration: none;
+}
+/*首页，新房这一行的背景色和宽高，字体大小*/
+.data-navigation{
+    background: #2fac66;
+    width:100%;
+    height:60px;
+    font-size:1.5em;
+    line-height:60px;
+}
+/*首页，新房等的字体大小颜色及悬停效果*/
+.data-navigation>.col-md-7>ul>li{
+    width:80px;
+    heigth:60px;
+}
+.data-navigation>.col-md-7>ul>li:hover{
+    background:#2E8A55;
+}
+.data-navigation>.col-md-7>ul>li>a{
+    color:white;
+}
+/*登录注册的字体颜色和字体大小，及悬停效果*/
+.data-navigation>.col-md-2>a{
+    color:white;
+    font-size:0.8em;
+}
+.data-navigation>.col-md-2>a:hover{
+    color:yellow;
+}
+.data-navigation>.col-md-2{
+    color:white;
+}
+/**搜索一栏*/
+div.data-searching{
+    width:100%;
+    height:auto;
+    line-height:70px;
+    border-bottom: 1px solid #DDDDDD;
+}
+/**ulift优生活*/
+.data-searching{
+    border-collapse:collapse;
+}
+.data-searching>span{
+    font-size:4em;
+    color:#2E8A55;
+    font-size:3em;
+    font-family:"华文琥珀";
+}
+.data-searching>span.ulift{
+    font-size:4em;
+    margin-left:30px;
+}
+.data-searching>.goodlife{
+    margin-right:180px;
+}
+.data-searching>select{
+    width:80px;
+    height:50px;
+    box-sizing:border-box;
+    display:inline-block;
+    margin-right:-5px;
+}
+.data-searching>input{
+    width:500px;
+    height:50px;
+    box-sizing:border-box;
+}
+.data-searching>a{
+    border-radius:0;
+    height:50px;
+    border:none;
+    display:inline-block;
+    margin-left:-5px;
+    margin-top:-2px;
+}
